@@ -1,0 +1,22 @@
+{{- with .Site.Data.home.vision_section }}
+{{- if .enable }}
+<section id="our-vision" class="services-section bg-tertiary">
+    <div class="container w-full lg:max-w-screen-lg xl:max-w-screen-xl mx-auto py-30 px-5 xl:px-0">
+        <div class="lg:flex lg:justify-between lg:gap-15">
+            {{ with .title }}
+            <div class="lg:flex-1">
+                <h2
+                    class="text-[2.5rem] md:text-[3.375rem] lg:text-[2.688rem] xl:text-[3.375rem] text-[#1B0716] font-heading font-semibold mb-7.5">
+                    {{ . | safeHTML }}</h2>
+            </div>
+            {{ end }}
+            {{ with .description }}
+            <div class="lg:w-[63%] flex-none text-[#1B0716] text-base lg:text-xl">
+                <p>{{ . | safeHTML }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{- end }}
+{{- end }}

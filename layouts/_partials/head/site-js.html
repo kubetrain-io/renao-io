@@ -1,0 +1,23 @@
+{{/* Inisialisasi slice kosong */}}
+{{- $scripts := slice }}
+
+{{ with resources.Get "js/alpinejs@3.9.1.min.js" }} 
+  {{ $scripts = $scripts | append . }} 
+{{ end }}
+
+{{/* Ambil local JS, misal persist.js */}}
+{{/*  {{ with resources.Get "js/persist@3.10.2.min.js" }} 
+  {{ $scripts = $scripts | append . }} 
+{{ end }}  */}}
+
+{{ with resources.Get "js/menu.js" }} 
+  {{ $scripts = $scripts | append . }} 
+{{ end }}
+
+{{/* Bundle dan minify jika ada JS yang berhasil ditemukan */}}
+{{ if gt (len $scripts) 0 }}
+  {{ $js := $scripts | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint }}
+  <script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ else }}
+  <!-- ⚠️ Warning: No JS files were found to include -->
+{{ end }}

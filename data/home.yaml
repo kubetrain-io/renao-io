@@ -1,0 +1,84 @@
+### Hero section [ hero-section ]
+hero_section:
+  enable: true
+  title: 'Uniting <span class="text-highlight">Tech Professionals</span> and Enthusiasts in Europe'
+  description: >
+    We are a community-driven organization building a platform to foster collaboration, knowledge sharing, and innovation across the European cloud-native landscape.
+  button:
+    label: "Join KubeTrain 2026"
+    url: "https://kubetrain.io/"
+services_section:
+  enable: true
+  title: "What We Offer"
+  description: "We are a community-driven organization building a platform to foster collaboration, knowledge sharing, and innovation across the European cloud-native landscape."
+  services:
+    - title: "Community Events"
+      content: "Organize events like KubeTrain and the KubeTrain Party across Europe to learn, network, and connect with fellow cloud-native enthusiasts."
+      image: "images/service-1-bg.png"
+    - title: "Networking Opportunities"
+      content: "Build valuable connections with peers, industry experts, and potential collaborators within the European tech community."
+      image: "images/service-2.png"
+    - title: "Support for Community Projects"
+      content: "We aim to support and grow various community-led initiatives and projects."
+      image: "images/service-3.png"
+    - title: "Inclusive Platform"
+      content: "We are committed to diversity and inclusion, providing a welcoming and safe space for everyone to contribute and be heard."
+
+vision_section:
+  enable: true
+  title: "Our Vision"
+  description: 'To unite the European tech community, the organization actively works to become a central "hub" connecting various local cloud-native communities across Europe.  Facilitate cross-community events, where members from different regions can interact. This breaks down geographical silos, fosters a stronger pan-European network, and amplifies the impact of individual communities by connecting them to a larger whole.'
+
+teams_section:
+  enable: true
+  title: "Our Team"
+  description: "We are a community-driven organization building a platform to foster collaboration, knowledge sharing, and innovation"
+  teams:
+    - name: "Andrea Giardini"
+      image: "images/team-1.png"
+      linkedin: "#"
+    - name: "Carla Gaggini"
+      image: "images/team-2.png"
+      linkedin: "#"
+    - name: "Philipp Meier"
+      image: "images/team-3.png"
+      linkedin: "#"
+
+community_section:
+  enable: true
+  community_link:
+    - label: "Join #kubetrain on the CNCF Slack"
+      icon: "slack"
+      url: ""
+    - label: "kubetrain-io"
+      icon: "linkedin"
+      url: ""
+    - label: "KubeTrain_io"
+      icon: "x"
+      url: ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

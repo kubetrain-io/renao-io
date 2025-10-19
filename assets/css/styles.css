@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/aspect-ratio";
+/* @import "colors/custom.css"; */
+@source "hugo_stats.json";
+@import "partials/highlighter.css";
+@import "partials/splide.min.css";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --font-heading: Figtree;
+    --font-body: Figtree;
+    --color-primary: #CF26A0;
+    --color-dark-primary: #1B0716;
+    --color-secondary: #ECA8D9;
+    --color-dark-secondary: #370A2B;
+    --color-tertiary: #FBEFF8;
+    --color-darkblack: #112344;
+    --color-darkblue: #0E2B5F;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-darkblack font-body;
+}
+
+.menu__item-link.button {
+    @apply text-[#1E1637] text-sm lg:text-base font-medium font-body bg-secondary rounded-[6px] w-[211px] h-[45px] inline-flex justify-center items-center border border-solid border-secondary;
+}
+
+.menu li:hover .menu__item-link.button {
+    @apply bg-[#F7F9F2] border-[#000000];
+}
+
+.title-primary,
+.text-primer {
+    @apply text-primary block;
+}
+
+.text-highlight {
+    @apply relative;
+}
+
+.text-highlight::before {
+    @apply hidden lg:block absolute content-[''] left-6 bottom-0 w-[108%] h-2.5 bg-auto bg-no-repeat;
+
+   background-image: url('data:image/svg+xml,<svg width="100%" height="auto" viewBox="0 0 660 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M123.01 2.55446C272.276 0.329621 432.052 0.654895 584.502 4.24883L584.503 4.24884C585.387 4.271 586.019 4.31963 586.413 4.38429C586.591 4.41343 586.787 4.45543 586.931 4.53396C586.972 4.55644 587.031 4.59515 587.088 4.65534C587.146 4.71689 587.222 4.82581 587.235 4.98075C587.262 5.30704 587.007 5.46986 586.961 5.4981C586.817 5.58624 586.621 5.62895 586.467 5.65624C586.285 5.68828 586.056 5.71506 585.788 5.73576C585.25 5.77727 584.523 5.79719 583.634 5.78097C540.54 5.01608 497.023 4.39078 453.505 3.96958C376.997 3.23563 300.765 3.07874 225.37 3.57452C192.078 3.79943 159.322 4.17478 126.727 4.62636L112.766 4.82482C94.6526 5.0983 76.5391 5.39537 58.5662 5.71784C41.1939 6.02709 23.5637 6.46122 5.57496 6.60396L1.97309 6.62875C1.54998 6.63136 1.15231 6.6084 0.954995 6.56686C0.926745 6.56091 0.886978 6.55148 0.845859 6.53669C0.825287 6.52928 0.795116 6.5166 0.761206 6.49792C0.732244 6.48196 0.668854 6.44498 0.610816 6.37562C0.546305 6.29852 0.467714 6.15368 0.498863 5.9665C0.527002 5.79775 0.628833 5.69808 0.678108 5.65739C0.768661 5.58263 0.865898 5.55641 0.886003 5.55065C1.00412 5.51695 1.18678 5.50283 1.3855 5.49314C19.0906 4.62944 40.7234 4.17996 60.6604 3.72971C81.1628 3.27191 101.946 2.86413 123.01 2.55446Z" fill="%23CF26A0" stroke="%23CF26A0"/></svg>');
+}
+
+.content-toc {
+    @apply mb-8;
+}
+
+.content-toc ul {
+    @apply list-none pl-0;
+}
+
+.single-page__content p+h2 {
+    @apply mt-10 mb-6;
+}
+
+.menu__item-link.active {
+    @apply text-dark-primary;
+}
+
+.pricing-free {
+    @apply text-darkblack text-5xl font-bold font-body;
+}
+
+.pricing-free-desc {
+    @apply text-[#506386] text-sm font-medium font-body inline-block ml-1.5;
+}
+
+.pricing-team {
+    @apply text-darkblack text-[1.75rem] font-medium font-body;
+}
+
+.single-page h2 {
+    @apply text-3xl font-heading font-bold mb-6;
+}
+
+.single-page h3 {
+    @apply text-2xl font-heading font-bold mb-6;
+}
+
+.single-page p,
+.single-page ul,
+.single-page ol {
+    @apply mb-6;
+}

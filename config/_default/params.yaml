@@ -1,0 +1,8 @@
+header:
+  title: Renao
+  logo: images/logo.png
+description: renao
+# Your favicon must be located in the assets/images folder
+favicon: images/favicon.png
+author: renao
+is_download: true

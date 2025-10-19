@@ -1,0 +1,52 @@
+{{- with .Site.Data.home.teams_section }}
+{{- if .enable }}
+<section id="our-team" class="teams-section bg-white">
+    <div class="container w-full lg:max-w-screen-lg xl:max-w-screen-xl mx-auto py-20 px-5 xl:px-0">
+        <header class="text-center mb-10">
+            {{ with .title }}
+            <h2
+                class="text-[2.5rem] md:text-[3.375rem] lg:text-[2.688rem] xl:text-[3.375rem] text-[#1B0716] font-heading font-semibold">
+                {{ . | safeHTML }}</h2>
+            {{ end }}
+            {{ with .description }}
+            <div class="lg:w-2/5 mx-auto text-gray-700 text-base">
+                <p>{{ . | safeHTML }}</p>
+            </div>
+            {{ end }}
+        </header>
+        <div class="grid grid-cols-12 gap-y-7.5 lg:gap-12.5">
+            {{ range .teams }}
+            <div class="col-span-12 lg:col-span-4">
+                <div class="aspect-w-[39] aspect-h-[35] bg-[#F9E5F4] rounded-[20px] overflow-hidden mb-7.5">
+                    {{- if fileExists (add `assets/` (string .image)) }}
+                    {{ with resources.Get .image }}
+                    {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+                    <img class="w-full h-full object-cover object-bottom" src="{{ .RelPermalink }}" width="{{ .Width }}"
+                        height="{{ .Height }}" alt="cover">
+                    {{ end }}
+                    {{ end }}
+                    {{- end }}
+                </div>
+                <div class="flex justify-between items-center">
+                    {{ with .name }}
+                    <h3
+                        class="text-[#1B0716] text-[1.5rem] md:text-[1.875rem] lg:text-[1.5rem] xl:text-[1.875rem] font-heading font-semibold">
+                        {{ . | safeHTML }}</h3>
+                    {{ end }}
+                    {{ with .linkedin }}
+                    <a href="{{ . }}" class="w-8 inline-block">
+                        <svg class="w-full" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M27.7917 0C28.6978 0 29.5669 0.351189 30.2076 0.976311C30.8484 1.60143 31.2083 2.44928 31.2083 3.33333V26.6667C31.2083 27.5507 30.8484 28.3986 30.2076 29.0237C29.5669 29.6488 28.6978 30 27.7917 30H3.87501C2.96885 30 2.09981 29.6488 1.45906 29.0237C0.818313 28.3986 0.458344 27.5507 0.458344 26.6667V3.33333C0.458344 2.44928 0.818313 1.60143 1.45906 0.976311C2.09981 0.351189 2.96885 0 3.87501 0H27.7917ZM26.9375 25.8333V17C26.9375 15.559 26.3508 14.177 25.3063 13.1581C24.2619 12.1391 22.8454 11.5667 21.3683 11.5667C19.9163 11.5667 18.225 12.4333 17.405 13.7333V11.8833H12.6388V25.8333H17.405V17.6167C17.405 16.3333 18.4642 15.2833 19.7796 15.2833C20.4139 15.2833 21.0222 15.5292 21.4708 15.9668C21.9193 16.4043 22.1713 16.9978 22.1713 17.6167V25.8333H26.9375ZM7.08668 9.26667C7.84785 9.26667 8.57784 8.97167 9.11607 8.44657C9.6543 7.92146 9.95668 7.20927 9.95668 6.46667C9.95668 4.91667 8.67543 3.65 7.08668 3.65C6.32097 3.65 5.58663 3.94675 5.0452 4.47498C4.50377 5.00321 4.19959 5.71964 4.19959 6.46667C4.19959 8.01667 5.49793 9.26667 7.08668 9.26667ZM9.46126 25.8333V11.8833H4.72918V25.8333H9.46126Z"
+                                fill="#1B0716" />
+                        </svg>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{- end }}
+{{- end }}

@@ -1,0 +1,27 @@
+{
+    "name": "renao",
+    "version": "1.0.0",
+    "description": "renao",
+    "author": "kreasify",
+    "license": "MIT",
+    "scripts": {
+        "hugo": "hugo server -D --disableFastRender",
+        "start": "hugo server --bind 192.168.0.101"
+    },
+    "browserslist": [
+        "last 2 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ],
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/cli": "^4.1.5",
+        "alpinejs": "^3.14.8",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.5.3",
+        "postcss-cli": "^11.0.0",
+        "postcss-import": "^16.1.0",
+        "tailwindcss": "^4.1.6"
+    }
+}
