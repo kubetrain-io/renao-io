@@ -36,13 +36,13 @@ teams_section:
   teams:
     - name: "Andrea Giardini"
       image: "images/team-1.png"
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/giardiniandrea/"
     - name: "Carla Gaggini"
       image: "images/team-2.png"
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/carlagaggini/"
     - name: "Philipp Meier"
       image: "images/team-3.png"
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/phmeier/"
 
 community_section:
   enable: true
