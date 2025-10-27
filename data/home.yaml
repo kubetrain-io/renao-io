@@ -47,15 +47,15 @@ teams_section:
 community_section:
   enable: true
   community_link:
+    - label: "KubeTrain.io"
+      icon: "globe"
+      url: "https://kubetrain.io"
+    - label: "KubeTrain @ LinkedIn"
+      icon: "linkedin"
+      url: "https://www.linkedin.com/company/kubetrain-io/"
     - label: "Join #kubetrain on the CNCF Slack"
       icon: "slack"
-      url: ""
-    - label: "kubetrain-io"
-      icon: "linkedin"
-      url: ""
-    - label: "KubeTrain_io"
-      icon: "x"
-      url: ""
+      url: "https://communityinviter.com/apps/cloud-native/cncf"
 
 
 

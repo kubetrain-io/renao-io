@@ -15,18 +15,27 @@
                 <div class="space-y-4">
                     <div class="bg-dark-primary rounded-[10px] p-4">
                         <a class="flex items-center gap-4.5 text-white text-lg lg:text-2xl font-semibold font-body"
-                            href="https://kubetrain.io/" target="_blank">
+                            href="https://renao.io/" target="_blank">
                             <span class="w-8.5 h-8.5">
-                                {{ partial (printf "svg/icon-globe.svg" .) (dict "class" "text-current") }}
+                                {{ partial "svg/icon-globe.svg" (dict "class" "text-current") }}
                             </span>
-                            <span>www.kubetrain.io</span>
+                            <span>Renao.io</span>
+                        </a>
+                    </div>
+                    <div class="bg-dark-primary rounded-[10px] p-4">
+                        <a class="flex items-center gap-4.5 text-white text-lg lg:text-2xl font-semibold font-body"
+                            href="https://www.linkedin.com/company/renao-io" target="_blank">
+                            <span class="w-8.5 h-8.5">
+                                {{ partial "svg/icon-linkedin.svg" (dict "class" "text-current") }}
+                            </span>
+                            <span>Renao @ LinkedIn</span>
                         </a>
                     </div>
                     <div class="bg-dark-primary rounded-[10px] p-4">
                         <a class="flex items-center gap-4.5 text-white text-lg lg:text-2xl font-semibold font-body"
                             href="mailto:hello@renao.io" target="_blank">
                             <span class="w-8.5 h-8.5">
-                                {{ partial (printf "svg/icon-mail.svg" .) (dict "class" "text-current") }}
+                                {{ partial "svg/icon-mail.svg" (dict "class" "text-current") }}
                             </span>
                             <span>hello@renao.io</span>
                         </a>
