@@ -1,76 +1,64 @@
 ---
-title: Privacy Policy
+title: Imprint & Data Privacy
 description: Privacy Policy
 slug: privacy-policy
 ---
 
-This privacy policy applies to the Delurk app (hereby referred to as "Application") for mobile devices that was created by Horda Inc. (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".
+## Imprint
 
-## Information Collection and Use
+Association Renao  
+8706 Meilen  
+Email: hello@renao.io  
+Website: renao.io 
 
-The Application collects information when you download and use it. This information may include information such as
+## Privacy Policy
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+### Responsible Entity
 
-The Application does not gather precise information about the location of your mobile device.
+Responsible for this website under the applicable data protection laws, in particular the EU General Data Protection Regulation (GDPR), is:
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+Association Renao  
+8706 Meilen  
+Email: hello@renao.io  
+Website: renao.io & KubeTrain.io
 
-*   Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-*   Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-*   Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+## General Information
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+Based on Article 13 of the Swiss Federal Constitution and the provisions of the Swiss Federal Data Protection Act (DSG), every person has the right to privacy and protection against misuse of their personal data.
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to phone numbers. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+Renao takes the protection of personal information very seriously. All personal data is handled confidentially and in accordance with legal requirements and this privacy policy. In cooperation with our hosting providers, we strive to protect databases from unauthorized access, loss, misuse, or falsification.
 
-## Third Party Access
+Please note that data transmission over the Internet (for example via email) may have security gaps. Complete protection of data against access by third parties is not possible.
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+By using this website, you consent to the collection, processing, and use of data as described below. You may generally visit this website without registration. When you access pages, certain data such as visited pages, file names, date, and time may be stored on the server for statistical purposes without being directly linked to your identity. Personal data such as name, address, or email address is collected only when voluntarily provided. Without explicit consent, such data will not be shared with third parties.
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+## Processing of Personal Data
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+Personal data refers to all information relating to an identified or identifiable person. Processing includes any operation involving personal data such as storage, use, disclosure, modification, or deletion.
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+We process personal data in accordance with Swiss data protection law and, where applicable, Article 6(1) of the EU GDPR:
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+a) Processing based on the consent of the data subject.  
+b) Processing necessary for the performance of a contract or pre-contractual measures.  
+c) Processing required to fulfill a legal obligation.  
+d) Processing necessary to protect vital interests of the data subject or another person.  
+e) Processing necessary for legitimate interests, including information security, legal compliance, and the enforcement of claims, provided these interests do not override the fundamental rights and freedoms of the data subject.
 
-## Opt-Out Rights
+Personal data is retained only for as long as required for the intended purpose or legal obligations.
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+## External Payment Providers
 
-## Data Retention Policy
+This website may use external payment providers to process transactions, such as:
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at hello@delurk.app and they will respond in a reasonable time.
+* Visa
+* Mastercard
+* Apple Pay
+* American Express
+* Stripe
+* Prettix.eu
 
-## Children
+Data is processed in accordance with Swiss data protection law and, where applicable, Article 6(1)(b) GDPR (contract performance) and Article 6(1)(f) GDPR (legitimate interest) to ensure secure and efficient payment handling.
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+## Imprint & Data Privacy
 
-The Application does not address anyone under the age of 13\. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (hello@delurk.app) so that they will be able to take the necessary actions.
-
-## Security
-
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
-
-## Changes
-
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
-
-This privacy policy is effective as of 2024-04-04
-
-## Your Consent
-
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
-
-## Contact Us
-
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at hello@delurk.app.
+Email: hello@renao.io
