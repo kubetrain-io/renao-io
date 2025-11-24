@@ -13,9 +13,9 @@ main_footer:
   - name: Privacy Policy
     url: "/privacy-policy/"
     weight: 10
-  - name: Terms of Service
-    url: "/terms-of-service/"
-    weight: 20
-  - name: Cookies Settings
-    url: "/cookies-settings/"
-    weight: 30
+#  - name: Terms of Service
+#    url: "/terms-of-service/"
+#    weight: 20
+#  - name: Cookies Settings
+#    url: "/cookies-settings/"
+#    weight: 30
