@@ -5,15 +5,15 @@ hero_section:
   description: >
     We are a community-driven organization building a platform to foster collaboration, knowledge sharing, and innovation across the European cloud-native landscape.
   button:
-    label: "Join KubeTrain 2026"
-    url: "https://kubetrain.io/"
+    label: "Join KubeBoat 2027"
+    url: "https://www.kubeboat.io/"
 services_section:
   enable: true
   title: "What We Offer"
   description: "We are a community-driven organization building a platform to foster collaboration, knowledge sharing, and innovation across the European cloud-native landscape."
   services:
     - title: "Community Events"
-      content: "Organize events like KubeTrain and the KubeTrain Party across Europe to learn, network, and connect with fellow cloud-native enthusiasts."
+      content: "Organize events like KubeTrain, the KubeTrain Party, and KubeBoat across Europe to learn, network, and connect with fellow cloud-native enthusiasts."
       image: "images/service-1-bg.png"
     - title: "Networking Opportunities"
       content: "Build valuable connections with peers, industry experts, and potential collaborators within the European tech community."
@@ -50,6 +50,9 @@ community_section:
     - label: "KubeTrain.io"
       icon: "globe"
       url: "https://kubetrain.io"
+    - label: "KubeBoat.io"
+      icon: "globe"
+      url: "https://www.kubeboat.io/"
     - label: "KubeTrain @ LinkedIn"
       icon: "linkedin"
       url: "https://www.linkedin.com/company/kubetrain-io/"
